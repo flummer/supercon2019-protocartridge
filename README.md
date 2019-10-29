@@ -1,13 +1,10 @@
-# Unofficial KiCad template for a 2019 Hackaday Superconference Badge Cartridge
+# Prototyping Cartridge for the 2019 Hackaday Superconference Badge
 
-![Cartridge template render](https://raw.githubusercontent.com/flummer/supercon2019-cartridgetemplate/master/IMAGES/front_back_render.png "Cartridge template render")
+![Proto Cartridge render](https://github.com/flummer/supercon2019-protocartridge/raw/master/IMAGES/front_back_render.png "Proto Cartridge render")
 
-This template can be used as a starting point to make a cartridge for the Supercon badge, that will mate with the 40 pin expansion connector on the back of the badge.
+This is a simple prototyping cartridge, provides both through hole and surface mount prototyping pads in addition to a few finer pitch general SMD footprints with the connections broken out to slightly larger pads. The silkscreeen also have an area where function, revision or other identifying information can be easily written with a permanent marker.
 
-| WARNING: This design is unofficial, and has NOT been tested |
-| --- |
-
-It's using an angled 2x20 pin male header, a w25q128 SPI flash and a 100nF cap. The schematic has the pins named using global nets, so it's easy to simply add in your own stuff.
+This cartridge is based on the [unofficial Superconference 2019 Badge Cartridge template](https://github.com/flummer/supercon2019-cartridgetemplate) and hence include the w25q128 SPI flash and a 100nF cap in addition to the 2x20 pin angled male pin header for the badge connection. The flash allows badge configurations and firmware specific to this cartridge to be loaded from the cartridge it self making it selfcontained.
 
 ## License
 
